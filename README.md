@@ -1,0 +1,2 @@
+# scrapy_wangyi_jobs
+利用scrapy框架爬取网易招聘信息
