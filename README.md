@@ -27,7 +27,7 @@ scrapy genspider jobs hr.163.com
 4.完善爬虫
 spiders里面的jobs.py
 其中主要功能：
-爬取每一页目标字段，爬取详情页目标字段，翻页
+爬取每一页目标字段;爬取详情页目标字段;翻页;
 利用scrapy.Request(url, callback, meta={})中的meta参数在首页与详情页解析函数中传递数据，得到完整的item对象
 
 5.管道处理
